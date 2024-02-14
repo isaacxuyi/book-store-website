@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/pexels-cottonbro-studio-4153146 (1).jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 800px;
+}
+
+header {
+    background-color: rgb(2, 20, 59);
+    padding:  30px;
+    text-align: center;
+}
+
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.content {
+    text-align: center;
+    padding: 100px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.logo {
+    height: 44px;
+    width: 44px;
+}
+
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    cursor: pointer;
+    color: rgb(116, 116, 116);
+    transition: 1.5s;
+
+}
+.alt-subscribe {
+    background-color: rgb(16, 0, 34) !important;
+    color: rgb(255, 255, 255)!important;
+}
+
+.subscribe {
+    background-color: rgb(2, 20, 59);
+    color: white;
+    padding: 10px 20px;
+    border-style: none;
+    margin-top: 25px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.email-div {
+    margin-top: 20px;
+    align-content: center;
+    border-style: none; 
+}
+
+#email {
+    border-style: none;
+    padding: 10px 20px;
+    border: 1.5px;
+    border-style: solid;
+}
+
